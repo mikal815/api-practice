@@ -1,0 +1,12 @@
+.title1 {
+  -webkit-transition: -webkit-transform 1s;
+  transition: -webkit-transform 1s;
+  transition: transform 1s;
+  transition: transform 1s, -webkit-transform 1s;
+}
+
+.title1:hover {
+  -webkit-transform: translateY(40px);
+          transform: translateY(40px);
+}
+/*# sourceMappingURL=Main.css.map */
